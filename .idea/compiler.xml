@@ -11,7 +11,18 @@
         <module name="AccExampleRepository" />
         <module name="AccExampleDomain" />
         <module name="AccExampleTranslator" />
+        <module name="AccExampleWebSpringBoot" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AccExampleDomain" options="-parameters" />
+      <module name="AccExampleLogic" options="-parameters" />
+      <module name="AccExampleRepository" options="-parameters" />
+      <module name="AccExampleTranslator" options="-parameters" />
+      <module name="AccExampleWeb" options="-parameters" />
+      <module name="AccExampleWebSpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>
